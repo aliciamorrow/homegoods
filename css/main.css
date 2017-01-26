@@ -370,8 +370,8 @@ a:hover {
   color: inset 0 1px #fff,0 0 8px #c8cfe6;
 }
 .contact-us-details {
-  margin: 20px 0;
-  font-size: 0.9em;
+  margin: 10px 0;
+  font-size: 0.7em;
 }
 /*--------------------------------------------------------------------------
 +	Video Wrapper Style
@@ -1774,18 +1774,36 @@ span.color-red {
 .col-footer td {
   padding: 0px 10px 0px 10px;
 }
+.col-footer span { 
+  position: relative;
+  left: -5px;
+}
 @media screen and (max-width: 2024px) {
   .col-footer {
     font-size: 1em;
+    margin-bottom: 10px;
+    line-height: 14px;
   }
   .compare-img {
     max-width: 48%;
     min-width: 48%;
   }
+  .col-footer span { 
+    position: relative;
+    left: -5px;
+  }
+  .col-footer li {
+    text-indent: -2em;
+  }
+  .contact-us-details {
+    margin: 10px 0;
+    font-size: 0.9em;
+  }
 }
 @media screen and (max-width: 950px) {
   .col-footer {
     font-size: 0.9em;
+    line-height: 14px;
   }
   .compare-img {
     max-width: 48%;
@@ -1795,21 +1813,45 @@ span.color-red {
 @media screen and (max-width: 650px) {
   .col-footer {
     font-size: 0.8em;
+    line-height: 12px;
+  }
+  .footer-copyright {
+    border-top: 0px;
+    font-size: 0.6em;
+    line-height: 10px;
   }
   .compare-img {
-    max-width: 48%;
-    min-width: 48%;
+    max-width: 75%;
+    min-width: 75%;
   }
 }
-
 @media screen and (max-width: 480px) {
   .col-footer {
     font-size: 0.7em;
     padding: 1px 1px 1px 1px;
+    line-height: 10px;
   }
   .compare-img {
-    max-width: 48%;
-    min-width: 48%;
+    max-width: 90%;
+    min-width: 90%;
+  }
+  .footer-copyright {
+    border-top: 0px;
+    font-size: 0.5em;
+    line-height: 10px;
+  }
+  .col-footer td {
+    padding: 0px 0px 0px 0px;
+  }
+  .col-footer li {
+    padding: 0px 0px 0px 2px;
+  }
+  .col-footer span { 
+    position: relative;
+    left: -1px;
+  }
+  .col-footer li {
+    text-indent: -0.2em;
   }
 }
 /*--------------------------------------------------------------------------
