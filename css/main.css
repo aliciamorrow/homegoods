@@ -1774,6 +1774,44 @@ span.color-red {
 .col-footer td {
   padding: 0px 10px 0px 10px;
 }
+@media screen and (max-width: 2024px) {
+  .col-footer {
+    font-size: 1em;
+  }
+  .compare-img {
+    max-width: 48%;
+    min-width: 48%;
+  }
+}
+@media screen and (max-width: 950px) {
+  .col-footer {
+    font-size: 0.9em;
+  }
+  .compare-img {
+    max-width: 48%;
+    min-width: 48%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .col-footer {
+    font-size: 0.8em;
+  }
+  .compare-img {
+    max-width: 48%;
+    min-width: 48%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .col-footer {
+    font-size: 0.7em;
+    padding: 1px 1px 1px 1px;
+  }
+  .compare-img {
+    max-width: 48%;
+    min-width: 48%;
+  }
+}
 /*--------------------------------------------------------------------------
 +	Pagination Style (overrides Bootstrap style)
 --------------------------------------------------------------------------*/
