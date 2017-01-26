@@ -1803,6 +1803,9 @@ span.color-red {
     max-width: 60%;
     height: auto;
   }
+  .mainmenu li.logo-wrapper a {
+    border-right: 1px solid #E8E8E8;
+  }
 }
 @media screen and (max-width: 950px) {
   .col-footer {
@@ -1840,6 +1843,16 @@ span.color-red {
     max-width: 80%;
     height: auto;
   }
+  .pagination-wrapper ul {
+    max-width: 95%;
+  }
+  .pagination-lg > li > a {
+    font-size: 14px;
+  }
+  .pagination-lg > li > a,
+  .pagination-lg > li > span {
+    padding: 8px 12px;
+  }
 }
 @media screen and (max-width: 480px) {
   .col-footer {
@@ -1876,6 +1889,24 @@ span.color-red {
   .before-after {
     max-width: 90%;
     height: auto;
+  }
+  .pagination-wrapper ul {
+    max-width: 95%;
+  }
+  .pagination-lg > li > a {
+    font-size: 14px;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+  }
+  .pagination-lg > li > a,
+  .pagination-lg > li > span {
+    padding: 5px 8px;
+  }
+  .mainmenu li.logo-wrapper a {
+    border-right: none;
+  }
+  .mainmenu > ul > li {
+    border-bottom: none;
   }
 }
 /*--------------------------------------------------------------------------
@@ -2479,7 +2510,6 @@ span.color-red {
 +	Main Menu Style
 --------------------------------------------------------------------------*/
 .mainmenu li.logo-wrapper a {
-  border-right: 1px solid #E8E8E8;
   padding-left: 0;
   padding-top: 0;
   padding-bottom: 0;
