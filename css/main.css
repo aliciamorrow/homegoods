@@ -1799,6 +1799,10 @@ span.color-red {
     margin: 10px 0;
     font-size: 0.9em;
   }
+  .before-after {
+    max-width: 60%;
+    height: auto;
+  }
 }
 @media screen and (max-width: 950px) {
   .col-footer {
@@ -1808,6 +1812,10 @@ span.color-red {
   .compare-img {
     max-width: 48%;
     min-width: 48%;
+  }
+  .before-after {
+    max-width: 80%;
+    height: auto;
   }
 }
 @media screen and (max-width: 650px) {
@@ -1823,6 +1831,14 @@ span.color-red {
   .compare-img {
     max-width: 75%;
     min-width: 75%;
+  }
+  iframe {
+    width: 420px;
+    height: 236px;
+  }
+  .before-after {
+    max-width: 80%;
+    height: auto;
   }
 }
 @media screen and (max-width: 480px) {
@@ -1852,6 +1868,14 @@ span.color-red {
   }
   .col-footer li {
     text-indent: -0.2em;
+  }
+  iframe {
+    width: 343px;
+    height: 180px;
+  }
+  .before-after {
+    max-width: 90%;
+    height: auto;
   }
 }
 /*--------------------------------------------------------------------------
