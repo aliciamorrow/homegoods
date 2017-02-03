@@ -1788,13 +1788,6 @@ span.color-red {
     max-width: 48%;
     min-width: 48%;
   }
-  .col-footer span { 
-    position: relative;
-    left: -5px;
-  }
-  .col-footer li {
-    text-indent: -2em;
-  }
   .contact-us-details {
     margin: 10px 0;
     font-size: 0.9em;
@@ -1871,16 +1864,6 @@ span.color-red {
   }
   .col-footer td {
     padding: 0px 0px 0px 0px;
-  }
-  .col-footer li {
-    padding: 0px 0px 0px 2px;
-  }
-  .col-footer span { 
-    position: relative;
-    left: -1px;
-  }
-  .col-footer li {
-    text-indent: -0.2em;
   }
   iframe {
     width: 343px;
