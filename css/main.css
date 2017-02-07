@@ -1863,7 +1863,7 @@ span.color-red {
     line-height: 10px;
   }
   .col-footer td {
-    padding: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 7px;
   }
   iframe {
     width: 343px;
